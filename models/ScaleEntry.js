@@ -24,7 +24,7 @@ const ScaleDataSchema = mongoose.Schema({
     timestamp: {
         type: String,
         required: true
-    },
+    }
 })
 
 module.exports = mongoose.model('ScaleEntry', ScaleDataSchema);
